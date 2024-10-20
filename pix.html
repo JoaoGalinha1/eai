@@ -3,101 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatura André Luiz Faria Valle</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+    <title>PIX - Presentear André Valle</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .pix-container {
+            text-align: center;
+            background-color: #1b1b1b;
+            padding: 100px;
+            border-radius: 70px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .pix-container h1 {
+            color: #d4a76e;
+            margin-bottom: 20px;
+        }
+
+        .pix-container p {
+            color: #e1d2b8;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .pix-container img {
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="container">
-        <!-- Convite -->
-        <div class="convite">
-            <img src="imagem.png" alt="Convite de Formatura">
-            <div class="mensagem">
-                <p>É com muita alegria e gratidão que convido vocês a celebrar esse momento tão especial da minha vida!</p>
-                <p>Depois de anos de dedicação, risadas, desafios e muita determinação, finalmente chegou a hora de comemorar a minha formatura em Direito! E não poderia ser mais especial do que ao lado das pessoas que sempre me apoiaram e torceram por mim.</p>
-                <p>A presença de cada um de vocês significa muito, porque, de alguma forma, vocês fizeram parte dessa jornada. Seja nos conselhos, nas palavras de incentivo ou simplesmente por estarem por perto, cada gesto me ajudou a chegar até aqui.</p>
-                <p>Então, preparem-se para uma noite de festa, sorrisos e muito amor, porque essa conquista é nossa! Espero vocês lá!</p>
-                <p>Com todo carinho,</p>
-                <p><strong>André Valle</strong></p>
-            </div>
-            <a class="confirm-btn" href="https://forms.gle/UzzAycCCSi553Pg89" target="_blank">Confirmar Presença</a>
-        </div>
-
-        <!-- Menu de navegação -->
-        <div class="nav-menu">
-            <div class="nav-item" onclick="mostrarSecao('presentes')">Lista de Presentes</div>
-            <div class="nav-item" onclick="mostrarSecao('galeria')">Galerias</div>
-            <div class="nav-item" onclick="mostrarSecao('recadinhos')">Recadinhos</div>
-        </div>
-
-        <!-- Seções -->
-        <!-- Lista de Presentes (Oculta inicialmente) -->
-        <div id="presentes" class="section">
-            <h1>LISTA DE PRESENTES</h1>
-            <div class="gift-list">
-                <div class="gift-item">
-                    <img src="cofrinho.jpeg" alt="Ajude um recém-formado desempregado">
-                    <h3>Ajude um recém-formado desempregado</h3>
-                    <p>R$ 200,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-
-                <div class="gift-item">
-                    <img src="album.JFIF" alt="Cota álbum de formatura">
-                    <h3>Cota álbum de formatura</h3>
-                    <p>R$ 50,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-
-                <div class="gift-item">
-                    <img src="ressaca.jpg" alt="Kit Ressaca">
-                    <h3>Kit Ressaca</h3>
-                    <p>R$ 30,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-
-                <div class="gift-item">
-                    <img src="livros.jpg" alt="Livros da profissão">
-                    <h3>Livros da profissão</h3>
-                    <p>R$ 250,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-
-                <div class="gift-item">
-                    <img src="terno.jpg" alt="Terno para a Formatura">
-                    <h3>Terno para a Formatura</h3>
-                    <p>R$ 600,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-
-                <div class="gift-item">
-                    <img src="netflix.jpg" alt="Netflix para assistir enquanto procuro emprego">
-                    <h3>Netflix para assistir enquanto procuro emprego</h3>
-                    <p>R$ 55,00</p>
-                    <button onclick="abrirPix()">presentear</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- Galeria (Oculta inicialmente) -->
-        <div id="galeria" class="section">
-            <h1>Galeria de Fotos</h1>
-            <p>Aqui estarão as fotos do evento de formatura.</p>
-            <!-- Adicione suas fotos ou imagens aqui -->
-        </div>
-
-        <!-- Recadinhos (Oculta inicialmente) -->
-        <div id="recadinhos" class="section">
-            <h1>Recadinhos</h1>
-            <p>Deixe uma mensagem especial!</p>
-            <!-- Formulário de recadinhos ou mensagens -->
-        </div>
+    <div class="pix-container">
+        <h1>PIX - Presentear André Valle</h1>
+        <p>Escaneie o código QR abaixo para fazer sua contribuição via PIX.</p>
+        <img src="pixx.jpg" alt="QR Code PIX">
     </div>
 
-    <footer>
-        <p>&copy; 2024 - Formatura André Luiz Faria Valle</p>
-    </footer>
-
-    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
 </body>
 </html>
