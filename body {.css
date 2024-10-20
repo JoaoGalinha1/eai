@@ -5,7 +5,6 @@ body {
     background-color: #121212;
     color: #ffffff;
     text-align: center;
-
     background-image: url('imagem2.png'); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
@@ -101,12 +100,6 @@ h1, h2, h3 {
     background-color: #e6b788;
 }
 
-footer {
-    margin-top: 50px;
-    font-size: 0.9rem;
-    color: #7b7b7b;
-}
-
 /* Estilo do botão Confirmar Presença */
 .confirm-btn {
     background-color: #d4a76e;
@@ -121,4 +114,46 @@ footer {
 
 .confirm-btn:hover {
     background-color: #e6b788;
+}
+
+/* Menu de navegação */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.nav-item {
+    background-color: #2c2c2c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #d4a76e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #d4a76e;
+    color: #1b1b1b;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #7b7b7b;
+}
+
+/* Adicionando espaçamento nas seções */
+section {
+    margin-bottom: 50px;
+}
+
+/* Estilo de textos para harmonização e legibilidade */
+h1, h2 {
+    color: #d4a76e;
 }
