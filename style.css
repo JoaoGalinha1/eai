@@ -5,6 +5,7 @@ body {
     background-color: #121212;
     color: #ffffff;
     text-align: center;
+
     background-image: url('imagem2.png'); /* Imagem de fundo */
     background-size: cover;
     background-position: center;
