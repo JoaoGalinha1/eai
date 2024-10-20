@@ -220,6 +220,14 @@ footer {
     gap: 20px;
 }
 
+.form-recados {
+    margin: 30px auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .form-recados input, .form-recados textarea {
     padding: 15px;
     border: 2px solid #d4af37;
@@ -267,7 +275,5 @@ footer {
 #lista-recados .recado-item h3 {
     color: #d4af37;
     margin-bottom: 10px;
-}
-
 }
 
