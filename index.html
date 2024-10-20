@@ -23,26 +23,24 @@
             <a class="confirm-btn" href="https://forms.gle/UzzAycCCSi553Pg89" target="_blank">Confirmar Presença</a>
         </div>
 
-       
         <!-- Menu de navegação -->
-<div class="menu">
-    <button onclick="mostrarSecao('presentes')">Lista de Presentes</button>
-    <button onclick="mostrarSecao('galeria')">Galeria</button>
-    <button onclick="mostrarSecao('recadinhos')">Recadinhos</button>
-</div>
-
+        <div class="menu">
+            <button onclick="mostrarSecao('presentes')">Lista de Presentes</button>
+            <button onclick="mostrarSecao('galeria')">Galeria</button>
+            <button onclick="mostrarSecao('recadinhos')">Mural de Recados</button>
+        </div>
 
         <!-- Seção de Lista de Presentes -->
         <div id="presentes" class="secao" style="display: none;">
             <h1>LISTA DE PRESENTES</h1>
             <div class="gift-list">
                 <!-- Presente: Ajude um recém-formado -->
-            <div class="gift-item">
-                <img src="cofrinho.jpeg" alt="Ajude um recém-formado desempregado">
-                <h3>Ajude um recém-formado desempregado</h3>
-                <p>R$ 200,00</p>
-                <button onclick="abrirPix()">presentear</button>
-            </div>
+                <div class="gift-item">
+                    <img src="cofrinho.jpeg" alt="Ajude um recém-formado desempregado">
+                    <h3>Ajude um recém-formado desempregado</h3>
+                    <p>R$ 200,00</p>
+                    <button onclick="abrirPix()">presentear</button>
+                </div>
 
             <!-- Presente: Cota álbum -->
             <div class="gift-item">
@@ -91,26 +89,22 @@
             <div class="galeria-fotos">
                 <img src="foto1.jpg" alt="Foto 1">
                 <img src="foto2.jpg" alt="Foto 2">
-                <!-- Adicione mais fotos conforme necessário -->
             </div>
         </div>
 
         <!-- Seção de Mural de Recados -->
-<div id="recadinhos" class="secao" style="display: none;">
-    <h1>MURAL DE RECADOS</h1>
-    <div class="recados">
-        <p>Deixe seu recado para o André!</p>
-        <form id="muralRecados" class="form-recados">
-            <input type="text" id="nome" placeholder="Seu nome" required>
-            <textarea id="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
-            <button type="submit">Enviar Recado</button>
-        </form>
-        <div id="lista-recados">
-            <!-- Recados aparecerão aqui -->
-        </div>
-    </div>
-</div>
-
+        <div id="recadinhos" class="secao" style="display: none;">
+            <h1>MURAL DE RECADOS</h1>
+            <div class="recados">
+                <p>Deixe seu recado para o André!</p>
+                <form id="muralRecados" class="form-recados">
+                    <input type="text" id="nome" placeholder="Seu nome" required>
+                    <textarea id="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
+                    <button type="submit">Enviar Recado</button>
+                </form>
+                <div id="lista-recados">
+                    <!-- Recados aparecerão aqui -->
+                </div>
             </div>
         </div>
     </div>
@@ -119,7 +113,7 @@
         <p>&copy; 2024 - Formatura André Luiz Faria Valle</p>
     </footer>
 
-    <script src="<script src="script.js"></script> <!-- Script para o mural de recados -->
-"></script> <!-- Link correto para o arquivo JavaScript -->
+    <script src="script.js"></script> <!-- Script original do site -->
+    <script src="mural.js"></script> <!-- Script para o mural de recados -->
 </body>
 </html>
