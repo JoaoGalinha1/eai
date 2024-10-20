@@ -11,3 +11,28 @@ function mostrarSecao(secao) {
 function abrirPix() {
     window.open('pix.html', '_blank');
 }
+
+document.getElementById('muralRecados').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const nome = document.getElementById('nome').value;
+    const mensagem = document.getElementById('mensagem').value;
+
+    if (nome && mensagem) {
+        const recadoItem = document.createElement('div');
+        recadoItem.classList.add('recado-item');
+        
+        const recadoNome = document.createElement('h3');
+        recadoNome.innerText = nome;
+        recadoItem.appendChild(recadoNome);
+        
+        const recadoMensagem = document.createElement('p');
+        recadoMensagem.innerText = mensagem;
+        recadoItem.appendChild(recadoMensagem);
+        
+        document.getElementById('lista-recados').appendChild(recadoItem);
+
+        // Limpar formulário
+        document.getElementById('muralRecados').reset();
+    }
+});
