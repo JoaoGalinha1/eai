@@ -95,12 +95,22 @@
             </div>
         </div>
 
-        <!-- Seção de Recadinhos -->
-        <div id="recadinhos" class="secao" style="display: none;">
-            <h1>RECADINHOS</h1>
-            <div class="recados">
-                <p>Deixe seu recado para o André!</p>
-                <!-- Campo de recadinhos -->
+        <!-- Seção de Mural de Recados -->
+<div id="recadinhos" class="secao" style="display: none;">
+    <h1>MURAL DE RECADOS</h1>
+    <div class="recados">
+        <p>Deixe seu recado para o André!</p>
+        <form id="muralRecados" class="form-recados">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <textarea id="mensagem" placeholder="Sua mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar Recado</button>
+        </form>
+        <div id="lista-recados">
+            <!-- Recados aparecerão aqui -->
+        </div>
+    </div>
+</div>
+
             </div>
         </div>
     </div>
