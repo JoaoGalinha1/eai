@@ -122,3 +122,24 @@ footer {
 .confirm-btn:hover {
     background-color: #e6b788;
 }
+.menu {
+    margin-top: 30px;
+}
+
+.menu button {
+    background-color: #d4a76e; /* Cor similar ao botão de confirmação */
+    color: #1b1b1b; /* Texto escuro para contraste */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu button:hover {
+    background-color: #e6b788; /* Efeito hover suave */
+}
+
